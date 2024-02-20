@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: welcome-container
-        image:${newImageName}
+        image: saikumar7824/welcome2024:testing-from-jenkins-alpine-imagetag
         ports:
         - containerPort: 8024
         resources:
