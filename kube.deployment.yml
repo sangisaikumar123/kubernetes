@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: welcome-container
-        image: ${newImageName}
+        image:${newImageName}
         ports:
         - containerPort: 8024
         resources:
