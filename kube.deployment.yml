@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: welcome-container
-        image: vinay0094k/welcome:newtag
+        image: ${newImageName}
         ports:
         - containerPort: 8024
         resources:
